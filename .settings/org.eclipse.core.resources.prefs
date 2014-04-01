@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/jsp/list.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/reg.jsp=UTF-8
+encoding//WebContent/index.html=UTF-8
+encoding//resource/db.sql=UTF-8
+encoding//src/com/lubq/test/web/bo/Customer.java=UTF-8
+encoding//test/com/lubq/test/web/service/BindTest.java=UTF-8
+encoding//test/com/lubq/test/web/service/DaoTest.java=UTF-8
