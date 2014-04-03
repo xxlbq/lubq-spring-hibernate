@@ -1,0 +1,8 @@
+test
+
+
+maven
+
+D:\java\maven\apache-maven-3.1.1-bin\conf  settings.xml
+
+test

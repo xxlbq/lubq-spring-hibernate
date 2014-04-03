@@ -16,11 +16,13 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
-import org.apache.bval.constraints.NotEmpty;
+
+
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
 @Table(name = "CUSTOMER")
@@ -38,7 +40,7 @@ public class Customer implements Serializable{
 	
 	
 	//
-	@NotEmpty(message ="{username.notEmpty}")
+	@org.hibernate.validator.constraints.NotEmpty(message ="{username.notEmpty}")
 	@Length( min=6,max =16, message = "{username.length.illegal}")
 	
 	@Column(name = "username", length = 50)
